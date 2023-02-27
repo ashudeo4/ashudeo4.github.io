@@ -585,7 +585,8 @@ img.svg{
 	clear: both;
 	float: left;
 	position: relative;
-	
+	display: flex;
+	justify-content: center;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
@@ -1646,16 +1647,17 @@ img.svg{
 }
 .typed-cursor{color: #000;}
 .edina_tm_about_wrap.homepage_second .rightbox{
-	float: right;
+	/* float: right; */
 	padding-right: 0px;
 	padding-left: 65px;
+	
 }
 .edina_tm_about_wrap.homepage_second .leftbox{
 	float: left;
 	right: auto;
 	left: 0px;
 }
-.edina_tm_about_wrap.homepage_second .leftbox{background-image: url(..//img/about/2.jpg);}
+.edina_tm_about_wrap.homepage_second .leftbox{background-image: url(..//img/about/ashutosh.jpeg);}
 
 /*---------------------------------------------------*/
 /*	16) HOMEPAGE 3
